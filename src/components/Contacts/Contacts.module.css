@@ -1,0 +1,18 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.button {
+    width: 75px;
+    height: 35px;
+    background-color: #efefee;
+    border-radius: 5px;
+    &:hover {
+    background-color: #7a7a7a;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
